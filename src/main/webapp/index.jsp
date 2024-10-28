@@ -8,6 +8,6 @@
 <h1><%= "JSP Demo" %>
 </h1>
 <br/>
-<a href="uploader">File Uploader</a>
+<a href="form.jsp">File Uploader</a>
 </body>
 </html>

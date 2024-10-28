@@ -45,7 +45,7 @@ public class Uploader extends HttpServlet {
             InputStream fileContent = filePart.getInputStream();
 
             // 업로드할 버킷 이름 (실제 버킷 이름으로 변경하세요)
-            String bucketName = "jehwan-demo-bucket";
+            String bucketName = "my-bucket-0f1e90dd";
 
             // BlobId 및 BlobInfo 생성
             BlobId blobId = BlobId.of(bucketName, fileName);
